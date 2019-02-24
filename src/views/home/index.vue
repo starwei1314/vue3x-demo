@@ -86,8 +86,8 @@
         type: 'success',
         message: '恭喜您退出成功!'
       })
+      //用户登出以后自动跳转到登录页面
          this.$router.push("/")
-
     }
     }
   }
